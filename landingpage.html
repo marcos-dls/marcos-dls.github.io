@@ -4,11 +4,24 @@
     <title>Marcolio</title>
     <style>
       body {
-        background-image: url("C:/code/PersonalWebsite/Chill_Background_Marcos.jpg"); /* Path to your image */
+        background-image: url("img/Chill_Background_Marcos.jpg"); /* Path to your image */
         background-size: cover; /* Scale the image to fit the screen */
         background-repeat: no-repeat; /* Don't repeat the image */
-        font-family: Arial, sans-serif;
-        text-align: center;
+        font-family: 'Montserrat', sans-serif; /*TODO: Change this font */
+        text-align: left;
+      }
+      
+      .text-bg {
+        background-color: rgba(255, 255, 255, 0.3); /* White background with 80% opacity */
+        padding: 20px; /* Add some padding */
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 35%;
+      }
+      
+      h1, p {
+        text-shadow: 0 0 5px #fff; /* White outline with 5px of blur */
       }
 
       h1 {
@@ -26,7 +39,10 @@
     </style>
   </head>
   <body>
-    <h1>Marcolio</h1>
-    <p>Website building will continue after I cop this quick ass nap</p>
+    <div class="text-bg">
+      <h1>Marcolio</h1>
+      <p>I'll finish the website after I cop this nap...</p>
+    </div>
   </body>
 </html>
+
