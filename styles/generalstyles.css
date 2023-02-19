@@ -1,0 +1,8 @@
+.navigation_buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    width: 30%;
+    font-size: 50px;
+    background-color: rgb(211, 211, 211,0.4);
+  }
