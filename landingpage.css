@@ -1,0 +1,49 @@
+body {
+        background-image: url("img/Background_Colorado.JPG"); /* Path to your image */
+        background-size: cover; /* Scale the image to fit the screen */
+        background-repeat: no-repeat; /* Don't repeat the image */
+        background-color: #000a09;
+      }
+      
+      .text-bg {
+        padding: 20px; /* Add some padding */
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+      }
+      
+      h1, p {
+        text-shadow: 0 0 5px #fff; /* White outline with 5px of blur */
+      }
+
+      h1 {
+        font-size: 4em; /* Large font size */
+        margin-top: 50px;
+        color: #000000; /* Black text color */
+        text-decoration: underline;
+      }
+
+      p {
+        font-size: 2em; /* Medium font size */
+        margin-top: 20px;
+        color: #000000; /* Black text color */
+      }
+
+      #navigation_bar{
+        background-color: rgb(211, 211, 211,0.2);
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+
+      .navigation_buttons{
+        /* display: flex; */
+        /* justify-content: space-between; */
+        height: 15%;
+        width: 30%;
+        font-size: 50px;
+        background-color: rgb(211, 211, 211,0.4);
+      }
+      
